@@ -46,7 +46,6 @@ t_link				*take_shortest_road(t_room *end, t_room *list_of_rooms)
 			help(&list_of_links, list_of_rooms, best_neighbour, end);
 	}
 	best_neighbour->color = _WHITE;
-	// delete_rerouts_if(list_of_links);
 	return (list_of_links);
 }
 

@@ -36,7 +36,6 @@ t_road				*create_list_of_roads(t_room *list_of_rooms)
 			append_road(&list_of_roads, road);
 			if (single_step_road(link))
 				return (list_of_roads);
-			// search_breadth_first(list_of_rooms);
 		}
 	}
 	return (list_of_roads);
